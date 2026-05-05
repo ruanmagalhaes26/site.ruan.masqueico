@@ -16,4 +16,20 @@ display:none;
 
 
 
-@media screen and  (min-widht: 820 px)  {}
+@media screen and  (min-widht: 820 px)  {
+    .container__tulo, .container__itulo--negrito {
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block; 
+    }
+}
+
+@medida screen and  (min-widht: 1024px) {
+    .container__frase{
+        padding-left: 5en;
+        display: block;
+    }
+}
