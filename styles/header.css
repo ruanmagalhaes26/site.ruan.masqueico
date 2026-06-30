@@ -26,7 +26,26 @@ display:none;
 
 @medida screen and  (min-widht: 1024px) {
     .container__frase{
-        padding-left: 5en;
+        padding-left: 5em;
         display: block;
     }
+.cabecalho {
+    background-color: var(--cor-do-cabecalho);
+    padding: 1em;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem, .container__frase {
+    padding: 1em;
+}
+
+/* Controla o tamanho máximo da imagem para ela não cobrir o texto */
+.container__imagem {
+    max-width: 150px; /* Ajuste esse valor para o tamanho ideal da sua logo */
+    height: auto;
+}
+
